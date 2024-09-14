@@ -11,8 +11,6 @@ for Port in range(0,65535):
         try:
                 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
                         s.settimeout(0.5)
-                        #s.connect(("na18.holy.gg", 26247))
-                        #s.connect((str(IP), 26247))
                         s.connect((str(IP), int(Port)))
 
                         print("Servidor está ABIERTO (" + IP + ":" + str(Port) + ")")
