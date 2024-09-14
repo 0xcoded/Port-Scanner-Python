@@ -4,8 +4,6 @@ IP = input("IP: ")
 numPorts = 0
 porcentaje = 0
 for Port in range(0,65535):
-        #13 - 100
-        #1 - x
 
         if Port % 5000 == 0:
                 porcentaje = round((((1*100)/13) * numPorts))
