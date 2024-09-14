@@ -1,2 +1,1 @@
-* Usage:
-  python3 scan.py
+python3 scan.py
