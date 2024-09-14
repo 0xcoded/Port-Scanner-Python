@@ -12,7 +12,6 @@ for Port in range(0,65535):
                 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
                         s.settimeout(0.5)
                         s.connect((str(IP), int(Port)))
-
                         print("ABIERTO (" + IP + ":" + str(Port) + ")")
         except:
                 pass
