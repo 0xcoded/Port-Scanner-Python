@@ -5,7 +5,7 @@ numPorts = 0
 porcentaje = 0
 for Port in range(0,65535):
         if Port % 5000 == 0:
-                porcentaje = round((((1*100)/13) * numPorts))
+                porcentaje = round(((100/13) * numPorts))
                 print(str(porcentaje) + "% escaneado")
                 numPorts += 1
         try:
