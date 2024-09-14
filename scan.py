@@ -13,6 +13,6 @@ for Port in range(0,65535):
                         s.settimeout(0.5)
                         s.connect((str(IP), int(Port)))
 
-                        print("Servidor está ABIERTO (" + IP + ":" + str(Port) + ")")
+                        print("ABIERTO (" + IP + ":" + str(Port) + ")")
         except:
                 pass
